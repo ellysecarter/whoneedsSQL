@@ -1,0 +1,54 @@
+
+
+
+{{#each questions as |question|}}
+<div class="text-center">
+    <h2 class="quiz-question text-center">{{question.question}}</h2>
+    <img class="question-pic" data-pic-id="{{question.id}}" alt="test" src=""/>
+    {{#each question.options as |option|}}
+    <p class="btn btn-info option-btn" data-option-id={{this.id}} role="button">{{option.option}}</p>
+    {{/each}}
+</div>
+
+{{/each}}
+<a class="btn btn-primary btn-lg resultsBtn" role="button">Find out!</a>
+
+<div class="modal" tabindex="-1" role="dialog" id="myModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h5 class="modal-title">Not so fast...</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>You need to answers quiz questions first!</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="myModal2">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h5 class="modal-title">Not so fast...</h5>
+        <button type="button" class="close2" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Looks like you forgot to answer a question!</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="/assets/js/quiz.js"></script>
