@@ -3,14 +3,8 @@
 
 ### A social network that uses a NoSQL database!
 
-![screenshot](public/assets/images/screenshot.png)
-
-## Deployed application:
-https://blooming-escarpment-07246.herokuapp.com/
-
 
 ## Table of Contents
-* [Technologies used](#technologies-used)
 * [Features](#features)
 * [Known bugs](#known-bugs)
 * [Images](#stock-image-provided-by)
@@ -19,31 +13,12 @@ https://blooming-escarpment-07246.herokuapp.com/
 * [Questions](#questions)
 
 
-## Technologies Used
-* HTML
-* CSS
-* JavaScript
-* Bootstrap
-* Handlebars
-* Node packages used: 
-    * sequelize
-    * express
-    * express-session
-    * express-handlebars
-    * dotenv
-    * path
-    * dotenv
-    * connect-session-sequelize
-    * mysql2
-    * bcrypt
-    * nodemailer
-
 
 ## Features
-* 
+* Who Needs SQL is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. Who Needs SQL uses Express.js for routing, a MongoDB database, and the Mongoose ODM. In addition to using the Express.js and Mongoose packages, 4rm also uses a JavaScript date library format timestamps.
 
 ## Known Bugs
-None found.
+Still working on this assignment. Lots of functionality still needed.
 
 
 
