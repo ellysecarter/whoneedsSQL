@@ -2,7 +2,7 @@
 // import models
 const User = require ('./User.js')
 const Options = require ('./Options.js')
-const Question = require ('./Question.js')
+const Question = require ('./Thought.js')
 
 
 ////////////////////////////////////////////
